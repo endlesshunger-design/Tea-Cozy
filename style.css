@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+}
+
+header{
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+
+}
+
+#main-nav{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+img[src="/Users/ronnykim/Documents/GitHub/Tea-Cozy/img/img-tea-cozy-logo.webp"] {
+  height: 50px;
+}
+
+
+#mission{
+  background-image: url("/Users/ronnykim/Documents/GitHub/Tea-Cozy/img/img-mission-background.jpg");
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.text-overlay{
+  text-align: center;
+  font-family: helvetica;
+  align-items: center;
+}
+
+#logo{
+  max-height: 50px;
+  width: 50%;
+  margin-left: 10px;
+  align-items: stretch;
+}
+
+.nav{
+  width: 50%;
+  justify-items: flex-end;
+  text-align: right;
+  align-content: center;
+}
+
+li{
+  justify-items: space;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.links{
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: inline-flex;
+  list-style-type: none;
+
+}
+
