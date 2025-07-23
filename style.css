@@ -2,6 +2,20 @@ body{
   background-color: black;
 }
 
+h2{
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 10px;
+}
+
+h4{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
+}
+
 header{
   height: 69px;
   width: 100%;
@@ -10,7 +24,8 @@ header{
   display: flex;
   align-content: space-between;
   align-items: center;
-
+  position: absolute;
+  z-index: 1;
 }
 
 #main-nav{
@@ -24,18 +39,23 @@ img[src="/Users/ronnykim/Documents/GitHub/Tea-Cozy/img/img-tea-cozy-logo.webp"] 
 }
 
 
-#mission{
-  background-image: url("/Users/ronnykim/Documents/GitHub/Tea-Cozy/img/img-mission-background.jpg");
+.mission{
+  text-align: center;
   height: 700px;
-  width: 100%;
-  align-items: center;
-  z-index: 1;
+  width: auto;
 }
 
-.text-overlay{
+#text-mission{
+  width: 100%;
+  background-color: black;
   text-align: center;
   font-family: helvetica;
-  align-items: center;
+  color: seashell;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #logo{
@@ -68,6 +88,48 @@ li{
   opacity: 0.9;
   display: inline-flex;
   list-style-type: none;
-
 }
 
+.section-2{
+  width: 1000px;
+  margin: auto;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.tea-selections{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  font-family: Helvetica;
+  color: seashell;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.tea-of-the-month{
+  text-align: center;
+  width: 50%;
+}
+
+#tea-items{
+  padding: 0;
+}
+
+.tea{
+  list-style-type: none;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  padding-left: 0px;
+}
+
+.row1, .row2 {
+  display: flex;
+  gap: 1rem;
+}   
+
+#tea-type{
+  font-size: 20px;
+  margin-top: 10px;
+}
