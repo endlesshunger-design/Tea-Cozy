@@ -9,9 +9,25 @@ h2{
   line-height: 10px;
 }
 
+h3{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
 h4{
   font-family: Helvetica;
   font-weight: 600;
+  font-size: 25px;
+  line-height: normal;
+}
+
+h5{
+  font-family: Helvetica;
+  font-weight: 800;
   font-size: 25px;
   line-height: normal;
 }
@@ -90,12 +106,6 @@ li{
   list-style-type: none;
 }
 
-.section-2{
-  width: 1000px;
-  margin: auto;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-}
 
 .tea-selections{
   width: 1000px;
@@ -104,7 +114,7 @@ li{
   font-family: Helvetica;
   color: seashell;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .tea-of-the-month{
@@ -132,4 +142,100 @@ li{
 #tea-type{
   font-size: 20px;
   margin-top: 10px;
+}
+
+.locations{
+    width: auto; /* or any custom size */
+    height: 500px; 
+    background-image: url('/Users/ronnykim/Documents/GitHub/Tea-Cozy/img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+  }
+
+
+#location-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+#location-title{
+  text-align: center;
+  color: seashell;
+  padding-bottom: 15px;
+}
+
+#info{
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  color: seashell;
+  opacity: 1;
+  line-height: normal;
+  list-style-type: none;
+  text-align: center;
+  line-height: 3rem;
+  align-items: center;
+}
+
+.address{
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+#downtown{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 25px;
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#east-bayside{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 25px;
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#oakdale{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 25px;
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.contact{
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  color: seashell;
+}
+
+#contact-title{
+  padding-bottom: 20px;
+}
+
+footer{
+  padding-left: 20px;
+  text-align: left;
+  color: seashell;
 }
